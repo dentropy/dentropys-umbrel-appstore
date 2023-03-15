@@ -1,7 +1,7 @@
 manifestVersion: 1
-id: audiobookshelf
-name: Audiobookshelf
-tagline: Audiobook and podcast server
+id: tiddlywiki
+name: tiddlywiki
+tagline: A unique non-linear notebook for capturing, organising and sharing complex information
 category: Media
 version: "5.2.5"
 port: 9876
@@ -27,4 +27,4 @@ defaultPassword: ""
 releaseNotes: >-
   - It should work
 submitter: dentropy
-submission: https://github.com/getumbrel/umbrel-apps/pull/302 # IDK how to do this
+submission: https://github.com/getumbrel/umbrel-apps
