@@ -1,6 +1,6 @@
 manifestVersion: 1
-id: tiddlywiki
-name: tiddlywiki
+id: wallabag
+name: wallabag
 tagline: wallabag is a self hostable application for saving web pages Save and classify articles. Read them later. Freely.
 category: Media
 version: "2.5.4"
@@ -8,9 +8,9 @@ port: 9877
 description: >-
   - wallabag is a self hostable application for saving web pages: Save and classify articles. Read them later. Freely.
 developer: m0wer
-website: https://tiddlywiki.com/
-repo: https://github.com/m0wer/tiddlywiki-docker
-support: https://discord.gg/HFFZVQ8
+website: https://www.wallabag.it/en
+repo: https://github.com/wallabag/wallabag
+support: https://www.wallabag.it/en/contact
 gallery:
   - https://www.wallabag.org/user/themes/boxify/img/logo-wallabag.svg
   - https://raw.githubusercontent.com/wallabag/wallabag/master/.github/images/screenshot.png
