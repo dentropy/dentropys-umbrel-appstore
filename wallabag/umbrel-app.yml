@@ -1,0 +1,25 @@
+manifestVersion: 1
+id: tiddlywiki
+name: tiddlywiki
+tagline: wallabag is a self hostable application for saving web pages Save and classify articles. Read them later. Freely.
+category: Media
+version: "2.5.4"
+port: 9877
+description: >-
+  - wallabag is a self hostable application for saving web pages: Save and classify articles. Read them later. Freely.
+developer: m0wer
+website: https://tiddlywiki.com/
+repo: https://github.com/m0wer/tiddlywiki-docker
+support: https://discord.gg/HFFZVQ8
+gallery:
+  - https://www.wallabag.org/user/themes/boxify/img/logo-wallabag.svg
+  - https://raw.githubusercontent.com/wallabag/wallabag/master/.github/images/screenshot.png
+  - https://www.wallabag.org/images/0/e/b/7/7/0eb772a297201b8f526417cea81df795d4bbb694-screenwllbg0.png
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+releaseNotes: >-
+  - It should work
+submitter: dentropy
+submission: https://github.com/getumbrel/umbrel-apps
