@@ -22,7 +22,7 @@ services:
       #- SYMFONY__ENV__MAILER_USER=~
       #- SYMFONY__ENV__MAILER_PASSWORD=~
       #- SYMFONY__ENV__FROM_EMAIL=wallabag@example.com
-      - SYMFONY__ENV__DOMAIN_NAME=http://localhost:9877
+      - SYMFONY__ENV__DOMAIN_NAME=umbrel:9877
       - SYMFONY__ENV__SERVER_NAME="Your wallabag instance"
     volumes:
       - /srv/wallabag/images:/var/www/wallabag/web/assets/images
