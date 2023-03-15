@@ -34,6 +34,11 @@ To install an app from the app store
 ```
 
 sudo ~/umbrel/scripts/app install tiddlywiki
+sudo ~/umbrel/scripts/app install wallabag
+
+sudo ~/umbrel/scripts/app uninstall tiddlywiki
+sudo ~/umbrel/scripts/app uninstall wallabag
+
 
 ```
 
