@@ -1,0 +1,25 @@
+manifestVersion: 1
+id: pihole
+name: pihole
+tagline: The Pi-hole® is a DNS sinkhole that protects your devices from unwanted content, without installing any client-side software.
+category: Networking
+version: "latest"
+port: 5353
+description: >-
+  - The Pi-hole® is a DNS sinkhole that protects your devices from unwanted content, without installing any client-side software.
+  - [Overview of Pi-hole - Pi-hole documentation](https://docs.pi-hole.net/)
+developer: pi-hole
+website: https://pi-hole.net/
+repo: https://github.com/pi-hole
+support: https://discourse.pi-hole.net/
+gallery:
+  - https://pi-hole.github.io/graphics/Vortex/Vortex_with_Wordmark.svg
+  - https://1.bp.blogspot.com/-TnhzjKQK1kU/YGPKv0aSGUI/AAAAAAAAdNs/yREkVyWgwHQ15357SA_rag-F2lQ_K_NJgCPcBGAYYCw/s1247/pihole_webUI.png
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+releaseNotes: >-
+  - It should work
+submitter: dentropy
+submission: https://github.com/getumbrel/umbrel-apps
