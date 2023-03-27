@@ -1,6 +1,6 @@
 manifestVersion: 1
-id: wireguard
-name: wireguard
+id: wireguard_server
+name: wireguard_server
 tagline: WireGuard is an extremely simple yet fast and modern VPN that utilizes state-of-the-art cryptography.
 category: Media
 version: "latest"
