@@ -1,10 +1,10 @@
 manifestVersion: 1
-id: monica_crm
-name: monica_crm
+id: monica
+name: monica
 tagline: Personal CRM. Remember everything about your friends, family and business relationships.
 category: CRM
 version: "4.0"
-port: 9877
+port: 7742
 description: >-
   - Monica is a great open source personal relationship management system.
 developer: monica
