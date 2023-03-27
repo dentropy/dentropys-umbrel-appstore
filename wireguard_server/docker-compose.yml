@@ -8,7 +8,7 @@ networks:
 services:
   wireguard:
     image: linuxserver/wireguard
-    container_name: umbrel_wireguard
+    container_name: umbrel_wireguard_server
     networks:
       - umbrel_main_network
     extra_hosts:

@@ -36,6 +36,9 @@ To install an app from the app store
 
 sudo ~/umbrel/scripts/app install tiddlywiki
 sudo ~/umbrel/scripts/app install wallabag
+sudo ~/umbrel/scripts/app install monica
+sudo ~/umbrel/scripts/app install wireguard_server
+
 ```
 
 To uninstall an app from the app store
@@ -44,6 +47,8 @@ To uninstall an app from the app store
 
 sudo ~/umbrel/scripts/app uninstall tiddlywiki
 sudo ~/umbrel/scripts/app uninstall wallabag
+sudo ~/umbrel/scripts/app uninstall monica
+sudo ~/umbrel/scripts/app uninstall wireguard_server
 
 ```
 
