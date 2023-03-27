@@ -1,2 +1,2 @@
-UMBREL_DATA_DIR="${UMBREL_ROOT}/data"
-DESIRED_OWNER="1000:1000"
+
+export current_ip=`curl ifconfig.co`
