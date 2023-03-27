@@ -1,25 +1,20 @@
 manifestVersion: 1
-id: tiddlywiki
-name: tiddlywiki
-tagline: A unique non-linear notebook for capturing, organising and sharing complex information
-category: Media
-version: "5.2.5"
-port: 9876
+id: monica_crm
+name: monica_crm
+tagline: Personal CRM. Remember everything about your friends, family and business relationships.
+category: CRM
+version: "4.0"
+port: 9877
 description: >-
-  - Welcome to TiddlyWiki, a non-linear personal web notebook that anyone can use and keep forever, independently of any corporation.
-  - TiddlyWiki is a complete interactive wiki in JavaScript. 
-  - It can be used as a single HTML file in the browser or as a powerful Node.js application. It is highly customisable: the entire user interface is itself implemented in hackable WikiText.
-  - Learn more and see it in action at https://tiddlywiki.com/
-  - Developer documentation is in progress at https://tiddlywiki.com/dev/
-  - source code for docker container https://github.com/m0wer/tiddlywiki-docker
-developer: m0wer
-website: https://tiddlywiki.com/
-repo: https://github.com/m0wer/tiddlywiki-docker
-support: https://discord.gg/HFFZVQ8
+  - Monica is a great open source personal relationship management system.
+developer: monica
+website: https://www.monicahq.com/
+repo: https://github.com/monicahq/monica
+support: https://twitter.com/MonicaHQ_app
 gallery:
-  - https://upload.wikimedia.org/wikipedia/commons/6/6e/TiddlyWiki_5.1.9.png
-  - https://pbs.twimg.com/media/E90jl8zWYAkj6Bz?format=jpg&name=4096x4096
-  - https://upload.wikimedia.org/wikipedia/commons/7/79/Standard_tiddler_edit_dialogue_box_on_TiddlyWiki_5.2.0.png
+  - https://user-images.githubusercontent.com/61099/37693034-5783b3d6-2c93-11e8-80ea-bd78438dcd51.png
+  - https://medevel.com/content/images/size/w1000/2020/12/dashboard.png
+  - https://wwwhatsnew.com/wp-content/uploads/2018/07/Monica.jpg
 dependencies: []
 path: ""
 defaultUsername: ""
