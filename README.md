@@ -1,25 +1,25 @@
-## Umbrel Community App Store Template
+## Dentropy's Umbrel Appstore
 
-This repository is a template to create an Umbrel Community App Store. These additional app stores allow developers to distribute applications without submitting to the [Official Umbrel App Store](https://github.com/getumbrel/umbrel-apps).
+The umbrel app store, located at [getumbrel/umbrel-apps](https://github.com/getumbrel/umbrel-apps), did not have the apps I wanted so I made my own app store.
 
-Just click the "Use this template" button above and start adding your own apps!
+Apps I included are,
 
-### Technical Details
-
-The `umbrel-app-store.yml` file defines two important properties:
-- `id` - This is used as a prefix for all apps within the community app store. You **MUST** prefix your application id with your app store ID. For example, this template defines `sparkles` as a community app store ID and we have a `hello world` app. The app ID therefore should be: `sparkles-hello-world`
-- `name` - This name appears within the Umbrel user interface when users explore apps within these community app stores.
-
+* [TiddlyWiki  -- A non-linear personal web notebook](http://tiddlywiki.com/)
+* [wallabag    -- Read your articles later](https://www.wallabag.it/en)
+* [Monica CRM  -- Personal CRM done right](https://www.monicahq.com/)
+* [MediaGoblin -- Media publishing platform that anyone can run](https://mediagoblin.org/)
+* [MinIO       -- High Performance Object Storage](https://min.io/)
+* Wireguard Server
 
 ### Testing
 
-To test your community app store, you can add this repository through the Umbrel user interface as shown in the following demo:
-
+<!-- To test `Dentropy's Umbrel Appstore`, you can add this repository through the Umbrel user interface as shown in the following demo:
 
 https://user-images.githubusercontent.com/10330103/197889452-e5cd7e96-3233-4a09-b475-94b754adc7a3.mp4
 
+Alternatively, you can use the Umbrel CLI as described below. -->
 
-Alternatively, you can use the Umbrel CLI as described below.
+To test `Dentropy's Umbrel Appstore`, you can add this repository through the Umbrel CLI interface as shown in the following demo:
 
 To add an app store:
 ```
@@ -37,6 +37,8 @@ To install an app from the app store
 sudo ~/umbrel/scripts/app install tiddlywiki
 sudo ~/umbrel/scripts/app install wallabag
 sudo ~/umbrel/scripts/app install monica
+sudo ~/umbrel/scripts/app install mediagoblin
+sudo ~/umbrel/scripts/app install minio
 sudo ~/umbrel/scripts/app install wireguard_server
 
 ```
@@ -48,11 +50,14 @@ To uninstall an app from the app store
 sudo ~/umbrel/scripts/app uninstall tiddlywiki
 sudo ~/umbrel/scripts/app uninstall wallabag
 sudo ~/umbrel/scripts/app uninstall monica
+sudo ~/umbrel/scripts/app uninstall mediagoblin
+sudo ~/umbrel/scripts/app uninstall minio
 sudo ~/umbrel/scripts/app uninstall wireguard_server
 
 ```
 
 To remove an app store:
+
 ```
 sudo ~/umbrel/scripts/repo remove https://github.com/getumbrel/umbrel-community-app-store.git
 ```

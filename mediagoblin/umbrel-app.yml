@@ -1,0 +1,26 @@
+manifestVersion: 1
+id: mediagoblin
+name: mediagoblin
+tagline: MediaGoblin is a free software media publishing platform that anyone can run.
+category: CRM
+version: "4.0"
+port: 7749
+description: >-
+  - MediaGoblin is a free software media publishing platform that anyone can run.
+  - You can think of it as a decentralized alternative to Flickr, YouTube, SoundCloud, etc.
+developer: monica
+website: https://mediagoblin.org/
+repo: https://savannah.gnu.org/projects/mediagoblin
+support: https://wiki.mediagoblin.org/Main_Page
+gallery:
+  - https://mediagoblin.org/images/home_goblin.png
+  - https://mediagoblin.org/images/tour/profile2_cropped.png
+  - https://mediagoblin.org/images/tour/caminandes_cropped_thumb.png
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+releaseNotes: >-
+  - It should work
+submitter: dentropy
+submission: https://github.com/getumbrel/umbrel-apps

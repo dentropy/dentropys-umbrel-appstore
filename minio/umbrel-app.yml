@@ -1,0 +1,29 @@
+manifestVersion: 1
+id: minio
+name: minio
+tagline: MinIO is a high-performance object storage solution
+category: Storage
+version: "4.0"
+port: 7750
+description: >-
+  - MinIO is a High Performance Object Storage released under 
+  - GNU Affero General Public License v3.0. It is API 
+  - compatible with Amazon S3 cloud storage service. Use MinIO to 
+  - build high performance infrastructure for 
+  - machine learning, analytics and application data workloads.
+developer: monica
+website: https://min.io/
+repo: https://github.com/minio/minio
+support: https://slack.min.io/
+gallery:
+  - https://min.io/resources/img/logo.svg
+  - https://min.io/docs/minio/kubernetes/upstream/_images/minio-console1.png
+  - https://min.io/docs/minio/kubernetes/upstream/_images/operator-dashboard1.png
+dependencies: []
+path: ""
+defaultUsername: umbrel
+deterministicPassword: true
+releaseNotes: >-
+  - It should work
+submitter: dentropy
+submission: https://github.com/getumbrel/umbrel-apps

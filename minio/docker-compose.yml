@@ -1,0 +1,19 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: minio_app_1
+      APP_PORT: 9000
+
+  minio:
+    image: minio/minio
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    volumes:
+      - ${APP_DATA_DIR}:/data
+    environment:
+      MINIO_ROOT_USER: umbrel
+      MINIO_ROOT_PASSWORD: ${APP_PASSWORD}
+    command: server --console-address ":9001" /data

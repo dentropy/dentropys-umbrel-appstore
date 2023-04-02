@@ -1,0 +1,18 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: mediagoblin_app_1
+      APP_PORT: 80
+
+  mediagoblin:
+    container_name: mediagoblin
+    hostname: mediagoblin
+    image: vimagick/mediagoblin
+    environment:
+      - MG_USER=umbrel
+      - MG_PASS=${APP_PASSWORD}
+    volumes:
+      - ${APP_DATA_DIR}:/var/lib/mediagoblin
+    restart: unless-stopped
