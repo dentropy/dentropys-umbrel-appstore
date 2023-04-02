@@ -6,7 +6,7 @@ services:
       APP_HOST: minio_app_1
       APP_PORT: 9000
 
-  minio:
+  app:
     image: minio/minio
     ports:
       - "9000:9000"

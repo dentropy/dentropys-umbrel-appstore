@@ -22,10 +22,13 @@ Alternatively, you can use the Umbrel CLI as described below. -->
 To test `Dentropy's Umbrel Appstore`, you can add this repository through the Umbrel CLI interface as shown in the following demo:
 
 To add an app store:
-```
 
+``` bash
+
+# Install
 sudo ~/umbrel/scripts/repo add https://github.com/dentropy/dentropys-umbrel-appstore
 
+# Update
 sudo ~/umbrel/scripts/repo update
 
 ```

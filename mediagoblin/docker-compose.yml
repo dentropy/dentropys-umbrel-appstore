@@ -6,7 +6,7 @@ services:
       APP_HOST: mediagoblin_app_1
       APP_PORT: 80
 
-  mediagoblin:
+  app:
     container_name: mediagoblin
     hostname: mediagoblin
     image: vimagick/mediagoblin
