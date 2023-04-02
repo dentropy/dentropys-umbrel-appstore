@@ -9,7 +9,7 @@ services:
   app:
     image: minio/minio
     ports:
-      - "9000:9000"
+      # - "9000:9000"
       - "9001:9001"
     volumes:
       - ${APP_DATA_DIR}:/data

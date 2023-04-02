@@ -2,9 +2,9 @@ manifestVersion: 1
 id: mediagoblin
 name: mediagoblin
 tagline: MediaGoblin is a free software media publishing platform that anyone can run.
-category: CRM
+category: Storage
 version: "4.0"
-port: 7749
+port: 7849
 description: >-
   - MediaGoblin is a free software media publishing platform that anyone can run.
   - You can think of it as a decentralized alternative to Flickr, YouTube, SoundCloud, etc.
@@ -18,8 +18,8 @@ gallery:
   - https://mediagoblin.org/images/tour/caminandes_cropped_thumb.png
 dependencies: []
 path: ""
-defaultUsername: ""
-defaultPassword: ""
+defaultUsername: umbrel
+deterministicPassword: true
 releaseNotes: >-
   - It should work
 submitter: dentropy
