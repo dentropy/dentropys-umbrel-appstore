@@ -8,8 +8,6 @@ services:
       PROXY_AUTH_ADD: "false"
 
   app:
-    container_name: mediagoblin
-    hostname: mediagoblin
     image: vimagick/mediagoblin
     environment:
       - MG_USER=umbrel
