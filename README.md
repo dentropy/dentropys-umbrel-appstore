@@ -42,6 +42,7 @@ To install an app from the app store
 sudo ~/umbrel/scripts/app install tiddlywiki
 sudo ~/umbrel/scripts/app install wallabag
 sudo ~/umbrel/scripts/app install monica
+sudo ~/umbrel/scripts/app install snipe-it
 sudo ~/umbrel/scripts/app install wireguard_server
 
 # Since Appstore GUI does not work you need to fetch the mediagoblin password manually
@@ -60,6 +61,7 @@ sudo ~/umbrel/scripts/app uninstall wallabag
 sudo ~/umbrel/scripts/app uninstall monica
 sudo ~/umbrel/scripts/app uninstall mediagoblin
 sudo ~/umbrel/scripts/app uninstall minio
+sudo ~/umbrel/scripts/app uninstall snipe-it
 sudo ~/umbrel/scripts/app uninstall wireguard_server
 
 ```

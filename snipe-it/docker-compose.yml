@@ -14,12 +14,13 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Etc/UTC
-      - APP_URL=http://umbrel:8592
+      - APP_URL=http://192.168.2.67:8592
       - MYSQL_PORT_3306_TCP_ADDR=db
       - MYSQL_PORT_3306_TCP_PORT=3306
       - MYSQL_DATABASE=snipeit
       - MYSQL_USER=snipeit
       - MYSQL_PASSWORD=secret
+      - APP_TRUSTED_PROXIES=*
     ports:
       - 9099:80
     volumes:
