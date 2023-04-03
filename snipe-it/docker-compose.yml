@@ -31,5 +31,5 @@ services:
       - MYSQL_USER=snipeit
       - MYSQL_PASSWORD=secret
     volumes:
-      - /srv/snipe-it/db:/var/lib/mysql
+      - ${APP_DATA_DIR}/db:/var/lib/mysql
     restart: always
