@@ -15,7 +15,7 @@ services:
       - PGID=1000
       - TZ=Etc/UTC
       - APP_URL=http://umbrel:8592
-      - MYSQL_PORT_3306_TCP_ADDR=df
+      - MYSQL_PORT_3306_TCP_ADDR=db
       - MYSQL_PORT_3306_TCP_PORT=3306
       - MYSQL_DATABASE=snipeit
       - MYSQL_USER=snipeit
