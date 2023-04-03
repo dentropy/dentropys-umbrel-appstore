@@ -20,6 +20,8 @@ services:
       - MYSQL_DATABASE=snipeit
       - MYSQL_USER=snipeit
       - MYSQL_PASSWORD=secret
+    ports:
+      - 9099:80
     volumes:
       - ${APP_DATA_DIR}/app:/config
 
