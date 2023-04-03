@@ -24,12 +24,12 @@ services:
       - ${APP_DATA_DIR}/app:/config
 
   db:
-    image: mysql:5.7
+    image: mysql:8
     environment:
       - MYSQL_RANDOM_ROOT_PASSWORD=true
       - MYSQL_DATABASE=snipeit
       - MYSQL_USER=snipeit
       - MYSQL_PASSWORD=secret
     volumes:
-      - ${APP_DATA_DIR}/db:/var/lib/mysql
+      - /srv/snipe-it/db:/var/lib/mysql
     restart: always
