@@ -4,7 +4,7 @@ name: snipe-it
 tagline: FOSS project for asset management in IT Operations.
 category: Management
 version: "6"
-port: 7949
+port: 8027
 description: >
   - This is a FOSS project for asset management in IT Operations.
   - Knowing who has which laptop, when it was purchased in order to depreciate it correctly, handling software licenses, etc.
