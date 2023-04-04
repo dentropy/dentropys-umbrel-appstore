@@ -21,6 +21,7 @@ services:
       - MYSQL_USER=snipeit
       - MYSQL_PASSWORD=secret
       - APP_TRUSTED_PROXIES=*
+      - APP_KEY='base64:0SBsb2k+BjfdeKFq9+brMx0x6uMCttEXMM6txufG1hg='
     ports:
       - 9099:80
     volumes:
