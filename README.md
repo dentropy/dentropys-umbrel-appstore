@@ -111,3 +111,13 @@ echo "mediagoblin user    : umbrel"
 echo "minio       password: $minio_APP_PASSWORD"
 
 ```
+
+## Wallabag Troubleshooting
+
+``` bash
+
+sudo docker exec wallabag_app_1 /var/www/wallabag/bin/console doctrine:migrations:migrate --env=prod --no-interaction
+
+```
+
+* [Error: Table 'wallabag.wallabag\_internal\_setting' doesn't exist · Issue #4923 · wallabag/wallabag](https://github.com/wallabag/wallabag/issues/4923)
