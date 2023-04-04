@@ -14,7 +14,7 @@ services:
       - db
     environment:
       - APP_KEY=base64:96LMP0ii2u/fuSxAm1+OEJD4gUyO84mOiU+uLoWSyls=
-      - DB_HOST=db
+      - DB_HOST=wallabag_db_1
       - DB_USERNAME=usermonica
       - DB_PASSWORD=secret
       - APP_TRUSTED_PROXIES=*
