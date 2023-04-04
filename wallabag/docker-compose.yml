@@ -34,7 +34,7 @@ services:
       - db
       - redis
   db:
-    image: mysql:8
+    image: mariadb:10
     environment:
       - MYSQL_ROOT_PASSWORD=wallaroot
       - MYSQL_DATABASE=wallabag
