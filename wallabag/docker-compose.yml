@@ -25,7 +25,7 @@ services:
       - SYMFONY__ENV__DOMAIN_NAME=http://umbrel:9877
       - SYMFONY__ENV__SERVER_NAME="Your wallabag instance"
     volumes:
-      - /srv/wallabag/images:/var/www/wallabag/web/assets/images
+      - ${APP_DATA_DIR}/images:/var/www/wallabag/web/assets/images
     healthcheck:
       test: ["CMD", "wget" ,"--no-verbose", "--tries=1", "--spider", "http://localhost"]
       interval: 1m
@@ -41,7 +41,7 @@ services:
       - MYSQL_USER=wallabag
       - MYSQL_PASSWORD=wallapass
     volumes:
-      - /srv/wallabag/data:/var/lib/mysql
+      - ${APP_DATA_DIR}/db:/var/lib/mysql
     healthcheck:
       test: ["CMD", "mysqladmin" ,"ping", "-h", "localhost"]
       interval: 20s
